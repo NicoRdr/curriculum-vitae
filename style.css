@@ -1,0 +1,57 @@
+@font-face /* police d'éciture*/
+{
+	font-family: "Airstream-webfont.woff";
+	src: url("Airstream_webfont/web fonts/airstream_regular_french/Airstream-webfont.woff");
+}
+
+
+h1
+{
+	text-align: center;/*titre au centre*/
+	font-family: Borg9,Arial, "Time New Roman";/*police du titre*/
+	border: 10px lime solid;/*bordure*/
+	border-radius: 10px 20px 10px 20px;/*bordure arrondie*/
+	color: white;/*couleur grand titre*/
+}
+body
+{
+	background-image: url("image/fond.png")/*fond du site*/
+}
+h2
+{
+	color: Red;/*couleur des sous-titres*/
+	font-family: "Airstream-webfont.woff", Arial, "Time New Roman";/*police des catégories*/
+	text-shadow: 15px 15px 5px green;/*texte éffet ombre*/
+}
+
+li
+{
+	color: white;
+	font-size: 18px; /*taille du texte*/
+	font-style: italic;/* italic*/
+	font-family:  arial Black,arial, serif;
+}
+
+cite 
+{
+	color:white;
+	font-size: 12px;/*taille éciture*/
+	text-align: center;/*centre la citation*/
+}
+
+.img
+{
+	background: repeat-x fixed;/**/
+	clear: right;
+}
+
+a:hover/*lien souligner*/
+{
+	background: Lime;
+	font-family:Borg9;
+}
+
+a:visited/* couleur du lien*/
+{
+	color: yellow;
+}
